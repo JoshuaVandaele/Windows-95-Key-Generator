@@ -23,7 +23,7 @@ def genSite():
 
 def genOEM():
   segments = []
-  segments.append(str(randint(1,366)).zfill(3) + str(randint(95,99)).zfill(2)) # First segment
+  segments.append(str(randint(1,366)).zfill(3) + str(randint(95,103))[-2:3].zfill(2)) # First segment
   segments.append("OEM")                                                       # Second
   segments.append("0" + genSeg(6))                                             # Third
   segments.append(str(randint(0,99999)).zfill(5))                              # Fourth
