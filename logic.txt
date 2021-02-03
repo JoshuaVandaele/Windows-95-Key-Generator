@@ -1,0 +1,31 @@
+Windows 95 OEM key: #####-OEM-#######-#####
+
+#####-OEM-#######-#####
+^^^
+These numbers can be between 000 to 366 it's the day.
+
+#####-OEM-#######-#####
+   ^^
+These can be between 95 to 99 or 00 to 03, it's the year.
+
+#####-OEM-#######-#####
+          ^
+The first digit MUST be 0
+
+#####-OEM-#######-#####
+           ^^^^^^
+This must be divisible by 7, while the last digit must be between 0 and 8.
+
+#####-OEM-#######-#####
+                  ^^^^^
+These can be anything.
+
+Windows 95 CD Key: ###-######
+
+###-#######
+^^^
+These cannot be 333, 444, ..., 999, but anything else is fine.
+
+###-#######
+    ^^^^^^^
+This must be divisible by 7, while the last digit must be between 0 and 8.
